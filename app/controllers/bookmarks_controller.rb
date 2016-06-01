@@ -28,6 +28,8 @@ class BookmarksController < ApplicationController
 
     respond_to do |format|
       if @bookmark.save
+        # ws = Webshot::Screenshot.instance
+        # ws.capture @bookmark.url, "/Users/suzanneharrison/Desktop/#{@bookmark.title}.png"
         format.html { redirect_to @bookmark, notice: 'Bookmark was successfully created.' }
         format.json { render :show, status: :created, location: @bookmark }
       else
