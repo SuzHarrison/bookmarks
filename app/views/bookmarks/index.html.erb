@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1>Listing Bookmarks</h1>
+<h2>Listing Bookmarks</h2>
 
 <table>
   <thead>
@@ -14,8 +14,8 @@
   <tbody>
     <% @bookmarks.each do |bookmark| %>
       <tr>
-
-        <td><%= link_to bookmark.title, bookmark.url %></td>
+        <td><%= bookmark.title%></td>
+        <td><%= link_to bookmark.url, bookmark.url %></td>
         <td><%= link_to 'Show', bookmark %></td>
         <td><%= link_to 'Edit', edit_bookmark_path(bookmark) %></td>
         <td><%= link_to 'Destroy', bookmark, method: :delete, data: { confirm: 'Are you sure?' } %></td>
@@ -27,4 +27,4 @@
 <br>
 
 <%= link_to 'New Bookmark', new_bookmark_path %>
-<%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
+<%= link_to "Sign out", destroy_user_session_path, :method => :delete %><br>

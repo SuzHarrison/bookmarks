@@ -7,11 +7,13 @@
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
-<header class="nav">
-  <div>
-    <ul>
+<div>
+<h1 class="welcome-title" >Bookmarks</h1>
+<nav class="navbar navbar-default">
+  <ul class="nav navbar-nav">
       <li><%= link_to "Add a Bookmark!", new_bookmark_path %></li>
       <li><%= link_to "Bookmarks", bookmarks_path %></li>
+      <li><%= link_to "Sign out", destroy_user_session_path, :method => :delete %></li>
     </ul>
   </div>
 </header>
@@ -20,5 +22,10 @@
   <p class="alert"><%= alert %></p>
 <%= yield %>
 
-</body>
+</body><br>
+
+<footer>
+	<h5>&copy; 2016 Suze!</h5>
+</footer>
+
 </html>
