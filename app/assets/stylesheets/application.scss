@@ -16,8 +16,8 @@
  html {
     font-size: 14px;
     height: 100%;
-    background: image-url("pen-1215435_1280.jpg") no-repeat center center fixed;
     background-size: cover;
+
   }
 
   body {
@@ -74,7 +74,7 @@
    }
 
   td, th {
-    font-family: 'Reenie Beanie', cursive;
+    font-family: 'Raleway', serif;
     border-bottom: black;
     width: 25%;
     padding: 1rem;
@@ -86,7 +86,7 @@
   }
 
   h1 {
-    font-family: 'Reenie Beanie', cursive;
+    font-family: 'Raleway', serif;
     text-align: center;
     margin-top: 5%;
   }
@@ -96,7 +96,7 @@
     margin-right: 15%;
   }
   .add_task_head {
-    font-family: 'Reenie Beanie', cursive;
+    font-family: 'Raleway', serif;
     text-align: center;
     margin-bottom: 1rem;
     padding: 1rem;
@@ -104,14 +104,14 @@
   }
 
   .wave_one_header {
-    font-family: 'Reenie Beanie', cursive;
+    font-family: 'Raleway', serif;
     text-align: center;
     margin-bottom: 1rem;
     padding: 1rem;
  }
 
  .WHOOT {
-   font-family: 'Reenie Beanie', cursive;
+   font-family: 'Raleway', serif;
    font-size: 34px;
    text-align: center;
    margin-top: 0.5rem;
@@ -125,7 +125,7 @@
 
 
   h2 {
-    font-family: 'Reenie Beanie', cursive;
+    font-family: 'Raleway', serif;
     text-align: center;
   }
 
@@ -148,23 +148,17 @@
   }
 
   textarea, input {
-    font-family: 'Reenie Beanie', cursive;
+    font-family: 'Raleway', serif;
     font-size: 24px;
   }
 
   .nav {
-    font-family: 'Reenie Beanie', cursive;
-    background-color: #E2DFD8;
-    font-size: 24px;
-    border-radius: 8px;
-    border: solid 2px;
-    color: black;
-    padding: 15px 20px;
+    font-family: 'Raleway', serif;
+    font-size: 18px;
+    padding: 7px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin-top: 1rem;
-    margin-bottom: 4rem;
     cursor: pointer;
     float: left;
   }
@@ -174,7 +168,7 @@
   }
 
   .button {
-    font-family: 'Reenie Beanie', cursive;
+    font-family: 'Raleway', serif;
     background-color: #2073e2;
     border: none;
     border-radius: 1rem;
