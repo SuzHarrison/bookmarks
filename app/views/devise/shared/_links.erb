@@ -1,6 +1,6 @@
 <%- if controller_name != 'sessions' %>
-  <%= link_to "Sign in", new_session_path(resource_name) %><br />
-  <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
+  <%#= link_to "Sign in", new_session_path(resource_name) %><br />
+  <%#= link_to "Sign out", destroy_user_session_path, :method => :delete %>
 <% end -%>
 
 <%- if devise_mapping.registerable? && controller_name != 'registrations' %>
